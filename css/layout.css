@@ -60,7 +60,7 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #2D9DDF;
+   color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
