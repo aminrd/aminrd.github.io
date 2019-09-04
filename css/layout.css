@@ -1050,13 +1050,3 @@ table td:nth-child(2) {
 .center{
     text-align: center;
 }
-
-
-
-.UBClogo {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background: url(UBC-logo.svg);
-  background-size: 25px 25px;
-}
