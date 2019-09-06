@@ -39,6 +39,19 @@ header {
    text-align: center;
    overflow: hidden;
 }
+@media only screen and (max-width: 600px) {
+  header {
+     position: relative;
+     height: 800px;
+     min-height: 500px;
+     width: 100%;
+     background: #161415 url(../images/header-background_phone.jpg) no-repeat top center;
+     background-size: cover !important;
+  	-webkit-background-size: cover !important;
+     text-align: center;
+     overflow: hidden;
+  }
+}
 
 
 /* vertically center banner section */
@@ -97,6 +110,10 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #272126; }
+@media only screen and (max-width: 600px) {
+  header .social li a { color: #ccc; }
+}
+
 header .social li a:hover { color: #2D9DDF; }
 
 /* scrolldown link */
