@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -54,6 +54,11 @@ figure {
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
+
+.no-margin{
+  padding: 0px !important;
+  margin: 0px !important;
+}
 
 ::-webkit-selection {
   color: #fff;
@@ -229,6 +234,7 @@ figure {
     #colorlib-main {
       width: 100%;
       padding: 0 1em; } }
+
 
 #colorlib-hero {
   min-height: 500px;
