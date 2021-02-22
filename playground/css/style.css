@@ -654,6 +654,10 @@ body.offcanvas {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
+    .services.color-7 {
+      border-bottom: 2px solid #42f5f2; }
+      .services.color-8 {
+        border-bottom: 2px solid #34eb5b; }
 
 .services {
   margin-bottom: 80px;
@@ -733,6 +737,19 @@ body.offcanvas {
       border-color: transparent transparent #4054b2 transparent; }
     .services.color-6 .icon:after {
       border-color: #4054b2 transparent transparent transparent; }
+    .services.color-7 .icon {
+      background: #42f5f2; }
+      .services.color-7 .icon:before {
+        border-color: transparent transparent #42f5f2 transparent; }
+      .services.color-7 .icon:after {
+        border-color: ##42f5f2 transparent transparent transparent; }
+        .services.color-8 .icon {
+          background: #34eb5b; }
+          .services.color-8 .icon:before {
+            border-color: transparent transparent #34eb5b transparent; }
+          .services.color-8 .icon:after {
+            border-color: #34eb5b transparent transparent transparent; }
+
 
 .progress-wrap h3 {
   font-size: 16px;
@@ -814,6 +831,20 @@ body.offcanvas {
     .progress-bar.color-6 span {
       color: #4054b2; }
 
+    .progress-bar.color-7 {
+      background: #42f5f2; }
+      .progress-bar.color-7:after {
+        background: #42f5f2; }
+      .progress-bar.color-7 span {
+        color: #42f5f2; }
+
+      .progress-bar.color-8 {
+        background: #34eb5b; }
+        .progress-bar.color-8:after {
+          background: #34eb5b; }
+        .progress-bar.color-8 span {
+          color: #34eb5b; }
+
 .colorlib-feature {
   text-align: left;
   width: 100%;
@@ -869,6 +900,7 @@ body.offcanvas {
   float: left;
   background: #fff;
   margin-bottom: 3em; }
+
   @media screen and (max-width: 768px) {
     .blog-entry {
       margin-bottom: 3em; } }
