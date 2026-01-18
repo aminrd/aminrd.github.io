@@ -1,843 +1,365 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Amin Aghaee Homepage</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Amin Aghaee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Amin Aghaee — Senior Platform Engineer, MSc UBC, BSc Sharif" />
 
-	<meta name=description content="Amin Aghaee Personal web page">
-  <meta name="keywords" content="Amin,Aghaee,Mohammad,Rad,Personal,Sharif,computer,Helli,ce,aminrd,ubc,UBC,Avestec,Goldspot,Mojio,Vancouver">
-  <meta name="author" content="Amin Aghaee">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --fg: #c9d1d9;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --border: #30363d;
+      --code-bg: #161b22;
+    }
 
-  <meta property="og:title" content="Amin Aghaee">
-  <meta property="og:site_name" content="Homepage">
-  <meta property="og:url" content="https://aminrd.github.io">
-  <meta property="og:description" content="My name is 'Amin Aghaee'. I am senior platform engineer at Mojio Inc. Master of Science graduate from Computer Science department of University of British Columbia. ">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="http://aminrd.github.io/images/profilepic.jpg">
+    [data-theme="light"] {
+      --bg: #ffffff;
+      --fg: #24292f;
+      --muted: #57606a;
+      --accent: #0969da;
+      --border: #d0d7de;
+      --code-bg: #f6f8fa;
+    }
 
-	<meta name="twitter:title" content="Amin Aghaee" />
-	<meta name="twitter:image" content="http://aminrd.github.io/images/profilepic.jpg" />
-	<meta name="twitter:url" content="https://aminrd.github.io" />
-	<meta name="twitter:card" content="" />
+    * {
+      box-sizing: border-box;
+    }
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+    body {
+      margin: 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.min.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.min.css">
-	<!-- <link rel="stylesheet" href="css/bootstrap.css">  -->
+    a:hover {
+      text-decoration: underline;
+    }
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.min.css">
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+    }
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/profilepic.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Amin Aghaee</a></h1>
-				<span class="position">Senior Platform Engineer at <a href="https://www.moj.io/" target="_blank">Mojio</a></span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="services">Activities</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="work">Portfolio</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
+    header p {
+      margin: 0.3rem 0 0;
+      color: var(--muted);
+    }
 
-			<div class="colorlib-footer">
-				<ul>
-					<li><a href="https://www.facebook.com/amin.aghaee1" target="_blank"><i class="fab fa-facebook-f text-info"></i></a></li>
-					<li><a href="https://twitter.com/Aghaee_" target="_blank"><i class="fab fa-twitter text-info"></i></a></li>
-					<li><a href="https://github.com/aminrd/" target="_blank"><i class="fab fa-github text-info"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/amin-aghaee" target="_blank"><i class="fab fa-linkedin text-info"></i></a></li>
-					<br>
-					<li><a href="http://instagram.com/amin_aghaee" target="_blank"><i class="fab fa-instagram text-info"></i></a></li>
-					<li><a href="https://stackoverflow.com/users/3279603/aminrd" target="_blank"><i class="fab fa-stack-overflow text-info"></i></a></li>
-				</ul>
-			</div>
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
 
-		</aside>
+    section {
+      margin-bottom: 3rem;
+    }
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1 style="color:	cornsilk; background:rgba(70,70,70,0.3);">Amin <br> Aghaee</h1>
-						   					<h2 style="color:	cornsilk; background:rgba(70,70,70,0.3);">Senior Software Engineer<br>
-													Msc. University of British Columbia<br>
-													BSc. Sharif University of Technology</h2>
-												<p><a class="btn btn-primary btn-learn bg-light" style="color:	cornsilk; background:rgba(70,70,70,0.3);" onclick="window.scrollBy(0, 500);"><i class="fas fa-angle-double-down fa-2x"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+    h2 {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About Me</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p>My name is <strong>Amin Aghaee</strong> I am <strong>Senior Platform Engineer</strong> at Mojio Inc. I received my M.Sc. from Computer Science department at <strong>University of British Columbia, Vancouver</strong> in 2019. My thesis focused on applying new machine learning and image processing techniques in geology and mineral exploration. I received my B.Se. from Computer Engineering department at <strong>Sharif University of Technology</strong> in 2016.</p>
-										<p>My areas of interest are:</p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="fas fa-robot fa-2x text-primary"></i></span>
-										<h3>Machine Learning and AI</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="fas fa-cubes fa-2x text-danger"></i></span>
-										<h3>3 Dimensional Modeling</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="fas fa-database fa-2x text-warning"></i></span>
-										<h3>Backend/ API Development</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="color-4 fas fa-project-diagram fa-2x"></i></span>
-										<h3>Graphs and Networks</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    h3 {
+      margin-top: 1.5rem;
+      font-size: 1.1rem;
+    }
 
+    ul {
+      padding-left: 1.2rem;
+    }
 
+    li {
+      margin-bottom: 0.5rem;
+    }
 
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
 
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group accordion" id="my_accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-bs-toggle="collapse" data-bs-parent="#my_accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Masters Degree, Computer Science, UBC
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Conducted advanced research as a Master's student in the LCI/UBC lab, specializing in applying machine learning techniques in geology. Leveraged Python, Keras, AI, and Convolutional Neural Networks (CNNs) to develop and implement innovative solutions for geological challenges. Engaged in coursework pertinent to my field, actively collaborated with fellow researchers in the lab and Star-AI reading group, delivered a lecture for the reading group, and completed an industry internship to gain practical experience.<br>
-																	Supervisor: <a href="https://www.cs.ubc.ca/people/david-poole" target="_blank" >Prof. David Poole</a>
-																</p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p><strong>University of British Columbia</strong> <br>
-																Computational Intelligence Lab<br>
-																ICICS/CS Building 201-2366 Main Mall<br>
-																Vancouver, BC Canada <i class="fab fa-canadian-maple-leaf"></i> V6T 1Z4<br>
-																September 2016 - January 2019
-															</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-bs-toggle="collapse" data-bs-parent="#my_accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelors Degree, Computer Engineering, SUT
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-												<div class="panel-body">
-													 <div class="row">
-													 <div class="col-md-6">
-														 <p>Admitted to Sharif University of Technology (SUT), a prestigious institution recognized as the top choice for high-ranking students in Iran's nationwide university entrance exam (Konkoor), out of more than 400,000 participants, with a rank of 212. During my undergraduate studies, I actively engaged in a part-time research project at the Machine Learning Lab within the Computer Engineering department. The project focused on designing an active learning method for clustering, culminating in the publication 'Active Distance-Based Clustering using K-medoids'. <br>
-															 Supervisor: <a href="http://sharif.edu/~soleymani/" target="_blank">Dr. Soleymani Baghshah</a>
-														 </p>
-													 </div>
-													 <div class="col-md-6">
-														 <p><strong>Sharif University of Technology</strong> <br>
-														 Machine Learning Lab<br>
-														 Department of Computer Engineering<br>
-														 Sharif University of Technology<br>
-														 Azadi Ave., Tehran, Iran <i class="fas fa-globe-asia"></i><br>
-														 September 2011 - June 2016
-													 </p>
-													 </div>
-												 </div>
-												</div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-bs-toggle="collapse" data-bs-parent="#my_accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Mathematics and Physics, Allameh Helli
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-												<div class="panel-body">
-													 <div class="row">
-													 <div class="col-md-6">
-														 <p>High School Dimploma in Mathematics and Physics from Allameh Helli Highschool, which is affiliated with the National Organization for the Development of Exceptional Talents
-															 (<a href="https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents" target="_blank">NODET</a>) in Iran.
-														 </p>
-													 </div>
-													 <div class="col-md-6">
-														 <p><strong>Allameh Helli High School</strong> <br>
-														 Ghaffari Street<br>
-														 Tehran, Iran <i class="fas fa-globe-asia"></i><br>
-														 September 2007 - June 2011
-													 </p>
-													 </div>
-												 </div>
-												</div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-bs-toggle="collapse" data-bs-parent="#my_accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Publications and Talks
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-												<div class="panel-body">
-													 <div class="col-md-12">
-														 <ul>
-															 <li><i><u>Identifying blockchain-based cryptocurrency accounts using investment portfolios</u> <strong>Amin Aghaee</strong>, October 2021. <a href="https://arxiv.org/abs/2110.04394" >arXiv paper <i class="far fa-file-alt"></i> </a></i></li>
-															 <li><i><u>3D Geophysical Inversion And Integration Combined With A Structural Geological Interpretation: An Innovative Workflow For The Keats Discovery Zone, Queensway Project Newfoundland</u> <a href="https://eage.org/" target="_blank">EAGE</a>, August 2021. <a href="./files/eage_certificate.pdf" >Invited Talk <i class="fas fa-microphone-alt"></i> </a></i></li>
-															 <li><i><u>TorchMinusOne: A Tool for Deterministic Geophysical Inversion</u>, SM Shalmani, P Shamsipour, <strong>Amin Aghaee</strong>, G Dupuis. pages 253-264, <a href="https://2021.goldschmidt.info/goldschmidt/2021/meetingapp.cgi/Paper/3874" target="_blank">GoldShmidt Conference</a>, July 2021.</i></li>
-															 <li><i><u>Stochastic Uncertainty Analysis of Gravity Gradient Tensor Components and Their Combinations</u>, Pejman Shamsipour; Amin Aghaee; Tedd Kourkounakis; Shawn Hood. Submitted to the <a href="https://www.journals.elsevier.com/journal-of-applied-geophysics" target="_blank">Journal of Applied Geophysic</a> </i></li>
-															 <li><i><u>Deep Learning for Automated Lineament Mapping</u>, Amin Aghaee. TGDG March 30th 2021 <a href="https://www.tgdg.net/event-4220325" target="_blank">Invited Talk <i class="fas fa-microphone-alt"></i> </a> </i></li>
-															<li><i><u>3D Geophysical Inversion and Integration combined with a structural geological interpretation: An Innovative workflow for the Keats Discovery Zone, Queensway Project Newfoundland</u>, Pejman Shmasipour, <strong>Amin Aghaee</strong>, Brenda Sharp, Vivien Janiver. KEGS Symposium 2021 <a href="https://www.kegsonline.org/news/11452455" target="_blank">Talk <i class="fas fa-microphone-alt"></i></a></i></li>
-														 <li><i><u>A Convolutional Neural Network for semi-automated lineament detection and vectorisation of remote sensing  data using probabilistic clustering: A method and a challenge</u>, <strong>Amin Aghaee</strong>, Pejman Shamsipour, Shawn Hood, Rasmus Haugaard. Computer and Geoscience, Elsevier CAGEO-D-20-00255R1, 2021</i></li>
-														 <li><i><u>Machine learning of lineaments from magnetic, gravity and elevation maps</u>, <strong>Amin Aghaee</strong>, University of British Columbia 10.14288/1.0376558, 2019.</i></li>
-															<li><i><u>Active Distance-Based Clustering using K-medoids</u>, <strong>Amin Aghaee</strong>, Mehrdad Ghadiri, and Mahdieh Soleymani Baghshah. pages 253-264, 20th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), 2016.</i></li>
-														</ul>
-													 </div>
-												</div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    .toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      color: var(--fg);
+      padding: 0.4rem 0.6rem;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
 
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-									 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
 
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
+<body data-theme="dark">
+  <button class="toggle" onclick="toggleTheme()">toggle theme</button>
 
-					               <div class="timeline-label">
-					                  <h2><a href="https://www.moj.io/" target="_blank">Senior Platform Engineer at Mojio</a> <span>May 2022 - Present</span></h2>
-					                  <p>Mojio Inc. is a leading company in connected mobility, recognized by Deloitte in 2020 as the 7th fastest-growing tech company in Canada and the #1 fastest-growing in British Columbia for the second consecutive year, with a four-year revenue growth of 3,612%. My responsibilities include:
-															<ul>
-																<li>Developing a robust cloud-based platform encompassing APIs, Protocol Gateways, and processing terabytes of vehicle telemetry data daily.</li>
-																<li>Analyzing extensive datasets to deliver artificial intelligence solutions to end-users.
-- Utilizing Azure services including Event Hubs, Stream Analytics, CosmosDB, ASP.NET, and Kubernetes for containerized applications.</li>
-																<li>Overseeing a significant data migration project from Azure CosmosDB to Couchbase.</li>
-																<li>Managing and optimizing various AWS services for enhanced operational efficiency.</li>
-																<li>Handling video and live stream management systems, ensuring optimized performance for live streams, replays, and user access.</li>
-															</ul>
-														</p>
-					               </div>
-					            </div>
-					         </article>
+  <header>
+    <h1>Amin Aghaee</h1>
+    <p>Senior Platform Engineer · MSc UBC · BSc Sharif</p>
+  </header>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a Senior Platform Engineer at Mojio Inc. I received my MSc in Computer
+        Science from the University of British Columbia (2019) and my BSc in
+        Computer Engineering from Sharif University of Technology (2016).
+      </p>
+      <p class="meta">
+        Interests: Machine Learning · Geophysics · Distributed Systems · Applied AI
+      </p>
+    </section>
 
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
+    <section>
+      <h2>Education</h2>
 
-					               <div class="timeline-label">
-					                  <h2><a href="https://goldspot.ca/" target="_blank">Machine Learning Engineer at GoldSpot Discoveries</a> <span>June 2020 - May 2022</span></h2>
-					                  <p>GoldSpot Discoveries Corporation is transforming the mineral exploration industry by leveraging artificial intelligence for targeting at both regional and local scales. My responsibilities include:
-															<ul>
-																<li>Developing 3D models of subsurface surveys using stochastic models and Gaussian Process Optimizations to enhance geological exploration.</li>
-																<li>Extracting features and clustering geological data utilizing Deep Learning techniques for improved data analysis and interpretation.</li>
-																<li>Accelerating processes and optimizing memory usage through the implementation of Lazy Tensors running on GPUs using <a href="http://www.kernel-operations.io/keops/index.html" target="_blank">PyKeops</a>.</li>
-															</ul>
-														</p>
-					               </div>
-					            </div>
-					         </article>
+      <h3>University of British Columbia</h3>
+      <p class="meta">MSc, Computer Science (2016–2019)</p>
+      <p>
+        Thesis: <em>Machine learning of lineaments from magnetic, gravity and elevation maps</em><br />
+        Supervisor: Prof. David Poole
+      </p>
+
+      <h3>Sharif University of Technology</h3>
+      <p class="meta">BSc, Computer Engineering (2011–2016)</p>
+      <p>
+        Research in Machine Learning Lab<br />
+        Supervisor: Dr. Mahdieh Baghshah
+      </p>
+    </section>
+
+    <section>
+      <h2>Publications & Talks</h2>
+
+      <h3>University of British Columbia</h3>
+      <ul>
+        <li>
+          <strong>Machine learning of lineaments from magnetic, gravity and elevation maps</strong>,
+          MSc Thesis, 2019.
+        </li>
+        <li>
+          <strong>A Convolutional Neural Network for semi-automated lineament detection</strong>,
+          Computer & Geosciences, Elsevier, 2021.
+        </li>
+        <li>
+          <strong>Deep Learning for Automated Lineament Mapping</strong>,
+          TGDG Invited Talk, March 2021.
+        </li>
+      </ul>
+
+      <h3>Sharif University of Technology</h3>
+      <ul>
+        <li>
+          <strong>Active Distance-Based Clustering using K-medoids</strong>,
+          PAKDD 2016.
+        </li>
+      </ul>
+
+      <h3>Industry / Independent</h3>
+      <ul>
+        <li>
+          <strong>Identifying blockchain-based cryptocurrency accounts using investment portfolios</strong>,
+          arXiv, 2021.
+        </li>
+        <li>
+          <strong>3D Geophysical Inversion and Integration</strong>,
+          EAGE Invited Talk, 2021.
+        </li>
+        <li>
+          <strong>TorchMinusOne: A Tool for Deterministic Geophysical Inversion</strong>,
+          Goldschmidt Conference, 2021.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Teaching Experience</h2>
+
+      <h3>University of British Columbia</h3>
+      <ul>
+        <li>Computing Platforms for Data Science (DSCI 521)</li>
+        <li>Probabilistic Graphical Models (CPSC 532R)</li>
+        <li>Advanced Machine Learning (DSCI 575)</li>
+        <li>Data Science Programming (DSCI 511)</li>
+        <li>Internet Computing (CPSC 317)</li>
+      </ul>
+
+      <h3>Sharif University of Technology</h3>
+      <ul>
+        <li>Digital Systems Design</li>
+        <li>Signals and Systems</li>
+        <li>Electrical Circuits</li>
+        <li>Computer Structure and Languages</li>
+        <li>Operating Systems</li>
+        <li>Logic Design</li>
+        <li>Fundamentals of Programming</li>
+      </ul>
+    </section>
+
+<section>
+  <h2>Experience</h2>
+
+  <h3>Mojio</h3>
+  <p class="meta">Senior Platform Engineer · 2022–Present · Vancouver, Canada</p>
+  <p>
+    Mojio is a connected mobility platform processing large-scale telematics data
+    from millions of vehicles across North America and Europe.
+  </p>
+  <ul>
+    <li>
+      Designed and maintained core backend services for large-scale ingestion,
+      processing, and storage of real-time vehicle telemetry data.
+    </li>
+    <li>
+      Led platform-level improvements focused on reliability, observability,
+      and cost efficiency across distributed microservices.
+    </li>
+    <li>
+      Worked extensively with cloud-native infrastructure, containerized
+      services, and CI/CD pipelines.
+    </li>
+    <li>
+      Collaborated with product and data teams to support analytics,
+      machine learning pipelines, and downstream consumer-facing features.
+    </li>
+    <li>
+      Mentored engineers and contributed to architectural decisions and
+      long-term technical roadmap.
+    </li>
+  </ul>
+
+  <h3>GoldSpot Discoveries</h3>
+  <p class="meta">Machine Learning Engineer · 2020–2022 · Vancouver, Canada</p>
+  <p>
+    GoldSpot Discoveries applies machine learning and data science to mineral
+    exploration, integrating geophysical, geological, and geochemical data.
+  </p>
+  <ul>
+    <li>
+      Developed deep learning models for automated interpretation of geophysical
+      data, including lineament detection and spatial feature extraction.
+    </li>
+    <li>
+      Built end-to-end ML pipelines for data preprocessing, model training,
+      evaluation, and deployment.
+    </li>
+    <li>
+      Worked closely with geoscientists to translate domain knowledge into
+      machine learning features and model constraints.
+    </li>
+    <li>
+      Contributed to research publications and technical presentations for
+      industry and academic conferences.
+    </li>
+    <li>
+      Implemented tools for reproducible experiments and large-scale
+      geospatial data processing.
+    </li>
+  </ul>
+
+  <h3>Avestec Technologies</h3>
+  <p class="meta">Lead Software Engineer · 2018–2020 · Vancouver, Canada</p>
+  <p>
+    Avestec Technologies provides software solutions for geoscience data analysis,
+    modeling, and inversion.
+  </p>
+  <ul>
+    <li>
+      Led the design and implementation of scientific software for geophysical
+      modeling and inversion workflows.
+    </li>
+    <li>
+      Built high-performance numerical and data-processing components in Python
+      and C++.
+    </li>
+    <li>
+      Collaborated with researchers to transform prototype algorithms into
+      production-grade software.
+    </li>
+    <li>
+      Introduced engineering best practices including testing, documentation,
+      and modular system design.
+    </li>
+  </ul>
+
+  <h3>Minerva Intelligence</h3>
+  <p class="meta">Machine Learning Engineer Intern · 2017–2018 · Vancouver, Canada</p>
+  <p>
+    Minerva Intelligence develops AI-driven tools for mineral targeting and
+    exploration decision support.
+  </p>
+  <ul>
+    <li>
+      Assisted in developing machine learning models for mineral prospectivity
+      mapping.
+    </li>
+    <li>
+      Worked on data integration pipelines combining geological, geophysical,
+      and geochemical datasets.
+    </li>
+    <li>
+      Prototyped research ideas and supported senior engineers in deploying
+      analytical tools.
+    </li>
+  </ul>
+</section>
 
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://avestec.com/" target="_blank">Lead Software Engineer at Avestec Technologies</a> <span>August 2018 - June 2020</span></h2>
-					                  <p>Avestec Technologies Inc. is a leader in an automated aerial inspection, utilizing advanced aerial robotics for asset inspections. My responsibilities include:
-															<ul>
-																<li>Developing the full stack of the inspector's platform, Avesoft™, for report generation and control of cameras and sensors on Avestec's SKYRON drone using Django.</li>
-																<li>Enabling live sensor and image data transmission through various protocols such as RS232, UART, XBee-900, and IEEE 802.11.</li>
-																<li>Developing and deploying a high-speed, live crack and defect detection CNN model for metal surfaces, running on NVIDIA's <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank">Jetson Nano</a> mounted on SKYRON.</li>
-															</ul>
-														</p>
-					               </div>
-					            </div>
-					         </article>
+    <section>
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://github.com/aminrd">GitHub</a></li>
+        <li><a href="https://scholar.google.com/citations?user=OEP8Iv0AAAAJ&hl=en&oi=ao">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/amin-aghaee">LinkedIn</a></li>
+        <li><a href="https://stackoverflow.com/users/3279603/aminrd">StackOverflow</a></li>
+      </ul>
+    </section>
+  </main>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="https://minervaintelligence.com/">Machine Learning Engineer Intern at Minverva Intelligence</a> <span>September 2017 - August 2018</span></h2>
-					                  <p>Minerva Intelligence Inc (Minerva Intelligence) is an artificial intelligence company focused on knowledge engineering and designs and develops application software. The company is headquartered in Vancouver, British Columbia, Canada.
-															<ul>
-																<li>Developing and depolying my CNN model for 1D lineament detection from Magnetic and Gravity geological surveys using <a href="https://keras.io/" target="_blank">Keras</a> and Tensorflow</li>
-															</ul>
-														</p>
-					               </div>
-					            </div>
-					         </article>
+  <footer>
+    © <script>document.write(new Date().getFullYear())</script> Amin Aghaee
+  </footer>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">RA/TA at University of British Columbia</a> <span>September 2016 - January 2019</span></h2>
-					                  <p>As a graduate master's student in the LCI Lab at UBC, I took courses relevant to my field, worked on my thesis, and presented lectures at the Star-AI reading group. Additionally, I had the opportunity to serve as a teaching assistant for multiple courses. Courses I TAed include:<br>
-															<button type="button" class="btn-sm btn-outline-secondary"  title='DSCI 521; T. Timbers; Fall 2018' >Computing Platforms for Data Science</button>
-															<button type="button" class="btn-sm btn-outline-secondary"  title='CPSC 532R; 	S. Ravanbakhsh; Spring 2018' >Probabilistic Graphical Models</button>
-															<button type="button" class="btn-sm btn-outline-secondary"  title='DSCI 575; Mike Gelbart; Spring 2018' >Advanced Machine Learning</button>
-															<button type="button" class="btn-sm btn-outline-secondary"  title='DSCI 511; Mike Gelbart; Fall 2011' >Data Science Programming</button>
-															<button type="button" class="btn-sm btn-outline-secondary"  title='CPSC 317; D. Acton; Fall 2016 & Spring 2017' >Internet Computing</button>
-														</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">RA/TA at Sharif University of Technology</a> <span>September 2011 - June 2016</span></h2>
-													<p>During my bachelor's studies, I engaged in a part-time research project at the Machine Learning Lab within the Computer Engineering department. The project focused on designing an active learning method for clustering, culminating in the publication 'Active Distance-Based Clustering using K-medoids.' Additionally, I had the opportunity to serve as a teaching assistant for multiple courses. Courses I TAed include:<br>
-														<button type="button" class="btn-sm btn-outline-secondary"  title='CE 40223; S.B. Sarmadi; Fall 2015' >Digital Systems Design</button>
-														<button type="button" class="btn-sm btn-outline-secondary"  title='CE 40242; 	Prof. H. Sameti	; Spring 2015' >Signals and Systems</button>
-														<button type="button" class="btn-sm btn-outline-secondary"  title='CE 40121; Dr. M. Jalili; Fall 2014 & Spring 2015' >Electrical Circuits</button>
-														<button type="button" class="btn-sm btn-outline-secondary"  title='CE 40126; Dr. H. Asadi; Fall 2014 & Spring 2015' >Computer Structure and Languages</button>
-														<button type="button" class="btn-sm btn-outline-secondary"  title='CE 40424; H. Ajorloo; Fall 2014' >Operating Systems</button>
-														<button type="button" class="btn-sm btn-outline-secondary"  title='CE 40212; S.B. Sarmadi; Spring 2014 & Fall 2014' >Logic Design</button>
-														<button type="button" class="btn-sm btn-outline-secondary"  title='CE 40153; M. Malekimajd; Fall 2013' >Fundamentals of Programming</button>
-													</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-						<section class="colorlib-services" data-section="services">
-							<div class="colorlib-narrow-content">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-										<span class="heading-meta">What I do?</span>
-										<h2 class="colorlib-heading">Some of my activities</h2>
-									</div>
-								</div>
-								<div class="row row-pt-md">
-									<div class="col-md-4 text-center animate-box">
-										<div class="services color-1">
-											<span class="icon">
-												<i class="fas fa-laptop-code fa-3x text-light"></i>
-											</span>
-											<div class="desc">
-												<h3><a href="https://sharecode.io/users/profile/1127" target="_blank">ShareCode</a></h3>
-												<p>Ranked 5 among more than 10000 users in <a href="https://sharecode.io/users/profile/1127" target="_blank">ShareCode</a></p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 text-center animate-box">
-										<div class="services color-2">
-											<span class="icon">
-												<i class="fa-brands fa-youtube fa-3x text-light"></i>
-											</span>
-											<div class="desc">
-												<h3><a href="https://www.youtube.com/channel/UCZSSwFe2G6BpuYfX1LAyTnQ" target="_blank">P<strong style="text-transform: lowercase">y</strong>L<strong style="text-transform: lowercase">eet</strong> Channel</a></h3>
-												<p>Programming education channel on Youtube.</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 text-center animate-box">
-										<div class="services color-3">
-											<span class="icon">
-												<i class="fas fa-laptop-code fa-3x text-light"></i>
-											</span>
-											<div class="desc">
-												<h3><a href="https://leetcode.com/amin_aghaee/" target="_blank">LeetCode</a></h3>
-												<p>Solving daily challenges on <a href="https://leetcode.com/amin_aghaee/" target="_blank">LeetCode</a></p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 text-center animate-box">
-										<div class="services color-4">
-											<span class="icon">
-												<i class="fa-brands fa-twitch fa-3x text-light"></i>
-											</span>
-											<div class="desc">
-												<h3><a href="https://www.twitch.tv/xaminbox" target="_blank">X<strong style="text-transform: lowercase">amin</strong>Box</a></h3>
-												<p>Nightly game stream with friends on <a href="https://www.twitch.tv/xaminbox" target="_blank">Twitch</a></p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 text-center animate-box">
-										<div class="services color-5">
-											<span class="icon">
-												<i class="fas fa-camera-retro fa-3x text-light"></i>
-											</span>
-											<div class="desc">
-												<h3>Photography</h3>
-												<p>Check out my amateur photos on my <a href="http://instagram.com/amin_aghaee" target="_blank"><i class="fab fa-instagram"></i></a> </p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 text-center animate-box">
-										<div class="services color-6">
-											<span class="icon">
-												<i class="fab fa-github fa-3x text-light"></i>
-											</span>
-											<div class="desc">
-												<h3><a href="https://github.com/aminrd/" target="_blank">GitHub</a></h3>
-												<p>Check out my open repositories on my <a href="https://github.com/aminrd/" target="_blank"><i class="fab fa-github"></i></a></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-							<div class="overlay"></div>
-							<div class="colorlib-narrow-content">
-								<div class="row">
-								</div>
-								<div class="row">
-									<div class="col-md-3 text-center animate-box">
-										<span class="colorlib-counter js-counter" data-from="0" data-to="4620" data-speed="1500" data-refresh-interval="50"></span>
-										<span class="colorlib-counter-label no-margin"><a href="https://stackoverflow.com/users/3279603/aminrd" target="_blank" style="color:#ef6b1d;"><i class="fab fa-stack-overflow fa-4x" ></i></a></span>
-										<div class="text-white text-center">Stack Overflow</div>
-										<div class="text-white text-center">
-											<span class="badge badge-pill text-light" style="background-color: #ffcc01;">4</span>
-											<span class="badge badge-pill text-light" style="background-color: #b4b8bc;">28</span>
-											<span class="badge badge-pill text-light" style="background-color: #d1a784;">48</span>
-										</div>
-									</div>
-									<div class="col-md-3 text-center animate-box">
-										<span class="colorlib-counter js-counter" data-from="0" data-to="499" data-speed="1500" data-refresh-interval="50"></span>
-										<span class="colorlib-counter-label no-margin"><a href="https://cs.stackexchange.com/users/109642/aminrd" target="_blank" style="color:#50c2ca;"><i class="fab fa-stack-overflow fa-4x" ></i></a></span>
-										<div class="text-light text-center">Computer Science</div>
-										<div class="text-white text-center">
-											<span class="badge badge-pill text-light" style="background-color: #b4b8bc;">4</span>
-											<span class="badge badge-pill text-light" style="background-color: #d1a784;">14</span>
-										</div>
-									</div>
-									<div class="col-md-3 text-center animate-box">
-										<span class="colorlib-counter js-counter" data-from="0" data-to="340" data-speed="1500" data-refresh-interval="50"></span>
-										<span class="colorlib-counter-label no-margin"><a href="https://datascience.stackexchange.com/users/82167/aminrd" target="_blank" style="color:#51a0d7;"><i class="fab fa-stack-overflow fa-4x" ></i></a></span>
-										<div class="text-light text-center">Data Science</div>
-										<div class="text-white text-center">
-											<span class="badge badge-pill text-light" style="background-color: #b4b8bc;">3</span>
-											<span class="badge badge-pill text-light" style="background-color: #d1a784;">12</span>
-										</div>
-									</div>
-									<div class="col-md-3 text-center animate-box">
-										<span class="colorlib-counter js-counter" data-from="0" data-to="146" data-speed="1500" data-refresh-interval="50"></span>
-										<span class="colorlib-counter-label no-margin"><a href="https://ai.stackexchange.com/users/30799/aminrd" target="_blank" style="color:#8f3083;"><i class="fab fa-stack-overflow fa-4x" ></i></a></span>
-										<div class="text-light text-center">Artificial Intelligence</div>
-										<div class="text-white text-center">
-											<span class="badge badge-pill text-light" style="background-color: #b4b8bc;">1</span>
-											<span class="badge badge-pill text-light" style="background-color: #d1a784;">7</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<section class="colorlib-skills" data-section="skills">
-							<div class="colorlib-narrow-content">
-								<div class="row">
-									<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-										<span class="heading-meta">My Specialty</span>
-										<h2 class="colorlib-heading animate-box">My Skills</h2>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-										<div class="progress-wrap">
-											<small>C++/C#, Python, Java</small>
-											<div class="progress">
-											 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="95"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-											    <span>95%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-										<div class="progress-wrap">
-											<small>Keras, PyTorch, Scipy, Colab</small>
-											<div class="progress">
-											 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-											    <span>90%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-										<div class="progress-wrap">
-											<small>Django, Javascript, Reac JS</small>
-											<div class="progress">
-											 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-											    <span>75%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-										<div class="progress-wrap">
-											<small>PostgreSQL, SQL, MongoDB, Couchbase</small>
-											<div class="progress">
-											 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="85"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-											    <span>85%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-										<div class="progress-wrap">
-											<small>MacOS, Windows, Linux</small>
-											<div class="progress">
-											 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="90"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-											    <span>90%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-										<div class="progress-wrap">
-											<small>Photoshop, Illustrator</small>
-											<div class="progress">
-											 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="65"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
-											    <span>65%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-										<div class="progress-wrap">
-											<small>Flutter, Dart, Kotlin</small>
-											<div class="progress">
-											 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="60"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-											    <span>50%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-										<div class="progress-wrap">
-											<small>ASP.NET, Swagger, API Development</small>
-											<div class="progress">
-											 	<div class="progress-bar color-8" role="progressbar" aria-valuenow="80"
-											  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-											    <span>75%</span>
-											  	</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-
-
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Some of my projects</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-					</div>
-					<div class="row">
-						<div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/aminrd/SharifWars" target="_blank">Sharif Wars</a></h3>
-										<span>
-											Sharif Wars is real-time strategy games, where players play as their characters and gain experience to level up based on Warcraft game series. The logic base of the program is written in C++ and a graphical layer using Qt framework was added to Attack of the zombies f.
-										</span>
-										<p class="icon">
-											<span><a href="https://github.com/aminrd/SharifWars" target="_blank"><i class="icon-github"></i></a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/aminrd/Sharif-AI-Challenge" target="_blank">Sharif AI Challenge</a></h3>
-										<span>
-											<a href="https://aichallenge.sharif.edu/" target="_blank">Sharif AI Challenge</a> is an annual group-working contest for challenging abilities in Java programming language and AI concepts which is held by Sharif University of Technology among all universities in Iran.
-										</span>
-										<p class="icon">
-											<span><a href="https://github.com/aminrd/Sharif-AI-Challenge" target="_blank"><i class="icon-github"></i></a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/aminrd/photoHub" target="_blank">PhotoHub</a></h3>
-										<span>PhotoHub is a platform that connects people to designers, people who knows Photoshop and retouching to work on their photos.</span>
-										<p class="icon">
-											<span><a href="https://github.com/aminrd/photoHub" target="_blank"><i class="icon-github"></i></a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-8 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Avesoft ™</a></h3>
-										<span>
-											This application is developed with Django, python, HTML, and Javascript technologies. This app is able to communicate with drone and send commands, receive sensor values, show camera view, and generate report from inspections.
-										</span>
-										<p class="icon">
-											<span><a href="https://avestec.ca/" target="_blank"><i class="icon-open"></i></a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://goldspot.ca/our-expertise/geophysics/" target="_blank">minusOne Geophysical Inversion</a></h3>
-										<span>Stochastic inversion on geophysical data using machine learning and Gaussian progress optimization at Goldspot. Our software development includes innovative mathematical solutions that have not yet been available to the geophysics community, creating novel solutions and new interpretations that are just not possible with existing geophysics software.</span>
-										<p class="icon">
-												<span><a href="https://goldspot.ca/our-expertise/geophysics/" target="_blank"><i class="icon-open"></i></a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://github.com/aminrd/Image-Pixeler" target="_blank">Image Pixeler</a></h3>
-										<span>Image Pixeler is a tool to replace pixels, or group of pixels in an image, with other images. This program is written in Python 3. The iOS/ Android versions are using Flutter engine. It is again open source and available in <a href="https://github.com/aminrd/ImagePixelerApps" target="_blank">this</a> repository.</span>
-										<p class="icon">
-											<span><a href="https://github.com/aminrd/Image-Pixeler" target="_blank"><i class="icon-github"></i></a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text col-md-6" >
-									<img src="images/email-me.png" class="img-responsive" style="height: 100px; width: 100px; margin-top: -20px;" alt="Email Me!">
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>Downtown, Vancouver</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text col-md-6" >
-									<img src="images/email-me.png" class="img-responsive" style="height: 100px; width: 100px; margin-top: -20px;" alt="Email Me!">
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</section>
-
-			<p class="text-light" ><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-light">Colorlib</a>
-		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span></small></p>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	<!-- jQuery -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- <script src="js/bootstrap.min.js"></script> -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
-
-
-	<!-- MAIN JS -->
-	<script src="js/main.min.js"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      body.dataset.theme = body.dataset.theme === "dark" ? "light" : "dark";
+    }    
+  </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102384690-1"></script>
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-102384690-1");</script>
 
-
-	</body>
+</body>
 </html>
+
